@@ -10,7 +10,12 @@
  * - Solo pueden tener atributos finales (constantes)
  *
  * Abstracta
-
+ * - Es una clase normal, pero que no se puede instanciar sino heredar
+ * - el metodo "super()" -> llama al contructor de la clase del padre
+ *
+ * EJEMPLO
+ * - En un programa de contabilidad con BD Oracle y un cliente no quiere usar la BD
+ *   por lo que tendriamos que adaptar el programa con diferente tipos de conexiones
  */
 package org.patrones.factory;
 
