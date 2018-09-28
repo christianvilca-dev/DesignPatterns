@@ -18,5 +18,13 @@ public class SingletonPrueba {
         Singleton miSingleton3 = Singleton.obtenerSingleton();
         Singleton miSingleton4 = Singleton.obtenerSingleton();
         Singleton miSingleton5 = Singleton.obtenerSingleton();
+        
+        miSingleton3.vecesLlamado();
+        
+        System.out.println("terminado!!");
+        
+//        Creado solo una vez!!
+//        Se ha llamado al mentodo: 6 veces
+//        terminado!!
     }
 }
