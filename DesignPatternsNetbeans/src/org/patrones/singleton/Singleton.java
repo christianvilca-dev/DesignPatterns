@@ -5,7 +5,7 @@
  * - Recomendado para conecciones a BD
  * - En juegos para mantener la cantidad de puntos
  */
-package org.patrones.clases;
+package org.patrones.singleton;
 
 /**
  *
